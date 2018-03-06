@@ -1,25 +1,17 @@
 <template>
-<div class="body">
+<div>
   <Index></Index>
+  <!-- BG -->
   <div id="bg"></div>
 </div>
 </template>
 
 <script>
 // eslint-disable-next-line
-import MyHeader from "@/components/Header";
-// eslint-disable-next-line
-import Main from "@/components/Main";
-// eslint-disable-next-line
-import MyFooter from "@/components/Footer";
-// eslint-disable-next-line
 import Index from "@/components/Index";
 export default {
   name: 'Wrapper',
   components: {
-    MyHeader,
-    Main,
-    MyFooter,
     Index
   }
 }
