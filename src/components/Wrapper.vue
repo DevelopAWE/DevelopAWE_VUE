@@ -1,10 +1,7 @@
 <template>
 <div class="body">
-  <div id="wrapper">
-    <my-header></my-header>
-    <main></main>
-    <my-footer></my-footer>
-  </div>
+  <Index></Index>
+  <div id="bg"></div>
 </div>
 </template>
 
@@ -15,12 +12,15 @@ import MyHeader from "@/components/Header";
 import Main from "@/components/Main";
 // eslint-disable-next-line
 import MyFooter from "@/components/Footer";
+// eslint-disable-next-line
+import Index from "@/components/Index";
 export default {
   name: 'Wrapper',
   components: {
     MyHeader,
     Main,
-    MyFooter
+    MyFooter,
+    Index
   }
 }
 </script>
